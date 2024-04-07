@@ -1,0 +1,6 @@
+<jpanel layoutManager="layoutManager">
+    <label text="Task Name" /><textfield value="taskName" constraints="wrap" />
+    <label text="Task Status" /><textfield value="taskStatus" constraints="wrap" />
+    <button test="Add" eventType="add" constraints="wrap" />
+    <table tableModel="tableModel" columnModel="columnModel" constraints="wrap" />
+</jpanel>
